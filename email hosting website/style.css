@@ -1,25 +1,3 @@
-/*
-******************************************
-@Fast Home onepage html5 tempate version-1.
-******************************************
-******************************************
-	1.	Browser Reset + Common styles
-	2.	Header css
-	3.	service area Styles
-	4.	calculate Area Styles
-	5.	counter up area Styles
-	6.	client area Styles
-	7.  Pricing Area Styles
-	9.  Testimonial Area Styles
-	10.	contact us area Styles
-	11.	Footer
-******************************************
-******************************************
-*/
-
-
-/*start header area css*/
-
 .header_area {
     background: url(img/version-1.jpg) no-repeat center center / cover;
     position: relative;
@@ -94,7 +72,7 @@ nav.navbar {
 }
 
 .logo {
-    padding: 11px 20px;
+    padding: 0px 60px;
 }
 
 .menu li a,
@@ -264,7 +242,7 @@ nav.navbar {
 .welcome_form {
     display: inline-block;
     position: relative;
-    width: 690px;
+    width: 285px;
     height: 75px;
 }
 
@@ -301,7 +279,7 @@ nav.navbar {
 }
 
 .submit {
-    background: #f9bf3b none repeat scroll 0 0;
+    background: #b79134 none repeat scroll 0 0;
     border: medium none;
     border-radius: 50px;
     color: #ffffff;
@@ -312,6 +290,7 @@ nav.navbar {
     text-transform: capitalize;
     top: 7.7%;
     width: 260px;
+    text-align: center;
 }
 
 
@@ -377,7 +356,7 @@ nav.navbar {
 .couter_up_area {
     height: 330px;
     position: relative;
-    background: url(img/count_up.jpg) no-repeat center center / cover;
+    background: url(img/a2.jpg) no-repeat center center / cover;
 }
 
 .couter_up_area:before {
@@ -888,27 +867,6 @@ div.slider-navs div.next-nav {
 
 
 /*start version two bgvideo css*/
-
-video {
-    display: block;
-}
-
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
-}
-
 .version-2 .welcome_p {
     margin-bottom: 0;
 }
@@ -951,7 +909,7 @@ video#bgvid {
     #bgvid {
         display: none;
     }
-}
+} 
 
 
 /*start versino 3  */
